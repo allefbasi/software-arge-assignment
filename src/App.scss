@@ -1,0 +1,27 @@
+$primary: #67ac70;
+$light: #bdbdbd;
+
+
+@import "~bootstrap/scss/bootstrap";
+
+body {
+  background-color: #f3fff5;
+  font-size: 14px;
+}
+
+.form-control::placeholder {
+  color: $light;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+.input-group-lg > .form-control {
+  font-size: 15px;
+}
+
+table {
+  table-layout: fixed;
+}
